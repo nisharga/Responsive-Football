@@ -1,0 +1,254 @@
+/* font google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800;900&display=swap');
+
+/* default css  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{width:100%;}
+header{
+    background-color: #2D25A0;
+    color: #fff;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #fff; 
+    text-decoration: none;
+}
+.btn i {margin-right: 5px;}
+
+ .container {
+    width: 1080px;
+    padding: 40px;
+}
+
+.full-width {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+/* header */
+.navlink {
+    padding-top: 10px;
+}
+.navlink ul {margin: 0; padding: 0;}
+
+.navlink ul li {display: inline-block;}
+
+.navlink ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5px;
+    padding: 20px;
+}
+nav {display: flex;flex-direction: row;justify-content: space-between;}
+
+
+/* heroContent */
+.heroContent {max-width: 700px;}
+
+.heroContentImage {
+    max-width: 450px;
+    margin-left: 100px;
+}
+
+.heroArea {
+    display: flex;
+    margin: 80px 0px;
+    justify-content: space-around;
+}
+
+.heroContent h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 1.4;
+}
+.heroContent .btn {width: 40%;}
+
+.heroContent .btn i {margin-left: 10px;}
+
+
+/* player Section */
+.col-md-4 {
+    width: 270px;
+    box-shadow: 0 0 10px;
+    margin: 10px 20px 20px 0px;
+}
+
+.singlePlayer {padding: 15px;}
+
+.player-section {
+    display: flex; 
+    justify-content: center;
+}
+
+.player-section .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.singlePlayer h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-Size: 22px;
+    line-height: 25px;
+}
+.singlePlayer p, .highlightArea p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-Size: 16px;
+    line-height: 1.5;
+    color: #6C6C6C;
+}
+
+
+/* highlightArea Section && Copa-America Section */
+.highlightArea, .copaAmerica{
+    display: flex; 
+    justify-content: center;
+}
+.highlightArea .content, .copaAmerica .content {
+    width: 50%;
+}
+.highlightAreaImage, .copaAmericaImage{
+    width: 40%; 
+}
+.highlightArea .container, .copaAmerica .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.highlightArea h2, .copaAmerica h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.4;
+    margin-bottom: 0px;
+}
+.highlightArea .btn , .copaAmerica .btn {
+    width: 25%;
+}
+.highlightArea .btn i , .copaAmerica .btn i{
+    margin-left: 10px;
+}
+
+
+/* footer-section */
+.footer{
+    display: flex; 
+    justify-content: center;
+}
+.footer .container {
+    width: 500px;
+    padding: 40px;
+}
+
+.social a {
+    background: #969BAB;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.social a i {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-left: 9px;
+}
+.copyrightArea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
+/* highlightArea Section && Copa-America Section */
+@media only screen and (max-width: 1040px) {
+    .navlink{
+        display: none;
+        content: "NK";
+    } 
+    .heroArea {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .heroContentImage { 
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    nav { 
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .heroContent h2 { 
+        font-size: 32px; 
+    }
+    a.btn {
+        font-size: 14px;
+    }
+    .heroContent .btn {
+    width: 50%;
+    }
+    .heroContentImage {
+        max-width: 400px; 
+    }
+    .highlightArea h2, .copaAmerica h2 { 
+        font-size: 32px; 
+    }
+    .singlePlayer p, .highlightArea p { 
+        font-Size: 16px; 
+    }
+    .highlightArea .container, .copaAmerica .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlightArea .btn, .copaAmerica .btn {
+        width: 25%
+    }
+    .highlightAreaImage, .copaAmericaImage {
+        width: 100%;
+    }
+    .highlightAreaImage{
+       margin-top: 100px; 
+    }
+    .highlightArea .content, .copaAmerica .content {
+    width: 100%;
+}
+.col-md-4 {
+    width: 370px; 
+}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
