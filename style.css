@@ -75,7 +75,10 @@ line-height: 1.4;
 .heroContent .btn {width: 40%;}
 
 .heroContent .btn i {margin-left: 10px;}
-
+.heroContentImage:hover {
+    transform: scale(1.1); 
+	 transition: all 0.5s ease;
+}
 
 /* player Section */
 .col-md-4 {
